@@ -15,8 +15,9 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
-      <WhatYouLearn />
       <AboutTrainer />
+      <WhatYouLearn />
+
       <WorkshopHighlights />
 
       <TestimonialSection />
