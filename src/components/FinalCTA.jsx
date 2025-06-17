@@ -104,18 +104,23 @@ const FinalCTA = () => {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 flex-wrap">
           <a
-            href="#enroll"
+            href="https://wa.me/917089200175?text=Hello%2C%20I%20am%20interested%20in%20the%20Kids%20Yoga%20Workshop.%20Can%20you%20please%20share%20more%20details%3F"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block px-8 py-4 text-white bg-gradient-to-r from-purple-500 to-pink-500 font-medium rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl transform hover:scale-105 font-poppins"
             aria-label="Join the 5-Day Workshop"
           >
             Join the 5-Day Workshop <FaArrowRight className="inline ml-2" />
           </a>
+
           <a
-            href="#schedule"
-            className="inline-block px-8 py-4 text-purple-700 bg-white border border-purple-300 font-medium rounded-lg shadow-md transition-all duration-300 hover:bg-purple-50 transform hover:scale-105 font-poppins"
-            aria-label="Schedule a Free Session"
+            href="https://wa.me/917089200175?text=Hello%2C%20I%20am%20interested%20in%20the%20Kids%20Yoga%20Workshop.%20Can%20you%20please%20share%20more%20details%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-4 text-white bg-green-500 font-medium rounded-lg shadow-md transition-all duration-300 hover:bg-green-600 transform hover:scale-105 font-poppins"
+            aria-label="Chat on WhatsApp"
           >
-            Schedule a Free Session <FaArrowRight className="inline ml-2" />
+            Chat on WhatsApp <FaArrowRight className="inline ml-2" />
           </a>
         </div>
       </div>

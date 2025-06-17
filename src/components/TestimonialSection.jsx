@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { FaStar, FaQuoteLeft, FaArrowRight, FaArrowLeft } from "react-icons/fa";
-
+import img1 from "../assets/3.webp";
+import img2 from "../assets/celebration-deity-navratri (1).webp";
+import img3 from "../assets/portrait-male-tourist-visiting-great-wall-china (1).webp";
 const testimonials = [
   {
     name: "Priya M.",
@@ -9,7 +11,7 @@ const testimonials = [
       "After implementing these techniques, our yoga sessions have 90% better participation. The kids actually ask for yoga time now!",
     stars: 5,
     bg: "from-fuchsia-100 to-pink-100",
-    image: "/images/testimonial1.jpg",
+    image: img1,
   },
   {
     name: "Rahul K.",
@@ -18,7 +20,7 @@ const testimonials = [
       "The class themes doubled our retention rate. Parents keep telling me their children won't stop talking about 'yoga adventures'!",
     stars: 5,
     bg: "from-amber-100 to-orange-100",
-    image: "/images/testimonial2.jpg",
+    image: img3,
   },
   {
     name: "Neha S.",
@@ -27,7 +29,7 @@ const testimonials = [
       "I went from struggling to hold their attention for 5 minutes to leading full 30-minute engaging sessions. This training was revolutionary.",
     stars: 5,
     bg: "from-blue-100 to-cyan-100",
-    image: "/images/testimonial3.jpg",
+    image: img2,
   },
 ];
 
@@ -96,6 +98,12 @@ export default function TestimonialSection() {
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Hear from educators who've revolutionized their teaching approach
             with our methods
+          </p>
+          <p className="text-sm text-gray-500 mt-4 flex justify-center items-center gap-1">
+            <span className="text-yellow-500">★</span>
+            Rated <span className="font-semibold">4.9/5</span> by 120+ educators
+            on
+            <span className="text-blue-600 font-medium"> Google Reviews</span>
           </p>
         </div>
 
@@ -256,16 +264,12 @@ export default function TestimonialSection() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-3">
             <a
-              href="#enroll"
+              href="https://wa.me/918281094117?text=Hi! I'm interested in the Kids Yoga Workshop and would like to know more details."
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-6 py-3 text-white bg-gradient-to-r from-pink-500 to-purple-600 font-medium rounded-lg shadow-lg hover:shadow-xl transition-all hover:scale-[1.02]"
             >
-              Enroll Now
-            </a>
-            <a
-              href="#learn-more"
-              className="inline-block px-6 py-3 text-gray-700 bg-white border border-gray-300 font-medium rounded-lg shadow-sm hover:bg-gray-50 transition-all"
-            >
-              Learn More
+              Enroll Now on WhatsApp
             </a>
           </div>
         </div>

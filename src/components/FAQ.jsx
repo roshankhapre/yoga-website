@@ -157,9 +157,9 @@ const FAQ = () => {
               Our friendly support team is here to assist you!
             </p>
             <a
-              href="#contact"
+              href="tel:8281094117"
               className="inline-flex items-center px-6 py-3 text-white bg-gradient-to-r from-purple-600 to-pink-500 font-medium rounded-lg shadow-md font-poppins"
-              aria-label="Contact Support"
+              aria-label="Call Support"
             >
               Contact Support <FaArrowRight className="ml-2" />
             </a>

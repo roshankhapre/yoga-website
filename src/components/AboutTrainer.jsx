@@ -105,9 +105,9 @@ export default function AboutTrainer() {
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-16">
+        <div className="text-center mt-16 flex flex-col sm:flex-row justify-center gap-4 flex-wrap">
           <a
-            href="#workshops"
+            href="https://wa.me/918281094117?text=Hi%20Steni%2C%20I%27m%20interested%20in%20the%20Kids%20Yoga%20Workshops.%20Could%20you%20please%20share%20more%20details%20about%20both%20the%205-Day%20Training%20and%20the%2050%20Creative%20Themes%20Masterclass%3F%20Looking%20forward%20to%20joining%21"
             className="inline-block bg-gradient-to-r from-purple-600 to-pink-500 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-purple-700 hover:to-pink-600 transition"
           >
             Learn with Steni – Join Workshop

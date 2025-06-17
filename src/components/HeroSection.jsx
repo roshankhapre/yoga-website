@@ -1,4 +1,8 @@
 import heroImg from "../assets/kids-yoga.webp";
+import client1 from "../assets/3.webp";
+import client2 from "../assets/young-beautiful-woman-casual-outfit-isolated-studio.webp";
+import client3 from "../assets/portrait-male-tourist-visiting-great-wall-china (1).webp";
+import client4 from "../assets/eastern-woman.webp";
 
 export default function HeroSection() {
   return (
@@ -24,24 +28,49 @@ export default function HeroSection() {
           modules!
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-          <button className="relative bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-xl transition duration-300 transform hover:scale-105">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start flex-wrap">
+          <a
+            href="https://wa.me/918281094117?text=Hi%20Steni%2C%20I%27m%20interested%20in%20the%20Kids%20Yoga%20Workshops.%20Could%20you%20please%20share%20more%20details%20about%20both%20the%205-Day%20Training%20and%20the%2050%20Creative%20Themes%20Masterclass%3F%20Looking%20forward%20to%20joining%21"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-xl transition duration-300 transform hover:scale-105"
+          >
             Join 5-Day Workshop
-          </button>
-          <button className="px-8 py-4 border-2 border-purple-500 text-purple-600 hover:bg-purple-50 rounded-full text-lg font-semibold transition duration-300 transform hover:scale-105">
+          </a>
+          <a
+            href="https://wa.me/918281094117?text=Hi%20Steni%2C%20I%27m%20interested%20in%20the%20Kids%20Yoga%20Workshops.%20Could%20you%20please%20share%20more%20details%20about%20both%20the%205-Day%20Training%20and%20the%2050%20Creative%20Themes%20Masterclass%3F%20Looking%20forward%20to%20joining%21"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 border-2 border-purple-500 text-purple-600 hover:bg-purple-50 rounded-full text-lg font-semibold transition duration-300 transform hover:scale-105"
+          >
             Explore Themes
-          </button>
+          </a>
         </div>
 
         <div className="flex items-center gap-3 pt-4 justify-center md:justify-start">
           <div className="flex -space-x-2">
-            {[1, 2, 3, 4].map((_, i) => (
-              <div
-                key={i}
-                className="w-10 h-10 rounded-full bg-purple-200 border-2 border-white"
-              ></div>
-            ))}
+            <img
+              src={client1}
+              alt="Instructor 1"
+              className="w-10 h-10 rounded-full border-2 border-white object-cover"
+            />
+            <img
+              src={client2}
+              alt="Instructor 2"
+              className="w-10 h-10 rounded-full border-2 border-white object-cover"
+            />
+            <img
+              src={client3}
+              alt="Instructor 3"
+              className="w-10 h-10 rounded-full border-2 border-white object-cover"
+            />
+            <img
+              src={client4}
+              alt="Instructor 4"
+              className="w-10 h-10 rounded-full border-2 border-white object-cover"
+            />
           </div>
+
           <p className="text-sm text-gray-600">500+ Happy Instructors</p>
         </div>
       </div>
