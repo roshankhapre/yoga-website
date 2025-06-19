@@ -106,7 +106,7 @@ const Navbar = () => {
             className="bg-white w-full px-6 py-6 space-y-4 shadow-lg z-50"
           >
             <a
-              href="#workshops"
+              href="/WorkshopHighlights"
               className="block text-lg font-medium text-gray-800 hover:text-pink-600 transition"
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -120,14 +120,14 @@ const Navbar = () => {
               About Us
             </a>
             <a
-              href="#testimonials"
+              href="/TestimonialSection"
               className="block text-lg font-medium text-gray-800 hover:text-pink-600 transition"
               onClick={() => setMobileMenuOpen(false)}
             >
               Reviews
             </a>
             <a
-              href="#contact"
+              href="/Register"
               className="block text-lg font-medium text-gray-800 hover:text-pink-600 transition"
               onClick={() => setMobileMenuOpen(false)}
             >
